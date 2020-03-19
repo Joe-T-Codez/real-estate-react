@@ -1,0 +1,262 @@
+#content-area {
+	 overflow: auto;
+	 width: 100%;
+}
+ #filter {
+	 height: 1150px;
+	 background: #f9f8f4;
+	 width: 30%;
+	 max-width: 300px;
+	 display: inline-block;
+}
+ #filter .inside {
+	 padding: 20px 10px 10px 50px;
+}
+ #filter h4 {
+	 margin-bottom: 20px;
+	 text-transform: uppercase;
+	 font-weight: 500;
+	 font-size: 14px;
+	 color: #404040;
+}
+ #filter select {
+	 background: transparent;
+	 display: block;
+	 border-radius: 5px;
+	 margin-bottom: 25px;
+	 font-size: 14px;
+	 font-weight: 500;
+	 color: #1b1b1b;
+	 width: 100%;
+}
+ #filter .filters .title {
+	 color: #aeabab;
+	 font-size: 15px;
+	 font-weight: 500;
+	 display: block;
+	 margin-bottom: 15px;
+}
+ #filter .filters input[type="text"] {
+	 display: inline-block;
+	 width: 45%;
+	 padding: 5px;
+	 margin-bottom: 15px;
+	 margin-right: 5px;
+	 border-radius: 5px;
+}
+ #filter .filters.extras label {
+	 display: block;
+	 padding: 10px;
+}
+ #filter .filters.extras label input[type="checkbox"] {
+	 float: right;
+}
+ #listings {
+	 width: 70%;
+
+	 display: inline-block;
+	 padding: 30px;
+	 background: #fffeff;
+}
+ #listings .search-area input[type="text"] {
+	 width: 70%;
+	 background: transparent;
+	 font-size: 2rem;
+	 border: none;
+	 border-bottom: 1px solid #aeabab;
+	 margin-bottom: 20px;
+	 color: #404040;
+}
+ #listings .sortby-area {
+	 margin-bottom: 20px;
+}
+ #listings .sortby-area .result-nums {
+	 color: #aeabab;
+	 font-size: 0.8rem;
+	 display: inline-block;
+}
+ #listings .sortby-area .sort-options {
+	 float: right;
+}
+ #listings .sortby-area .sort-options select {
+	 font-size: 0.9rem;
+	 font-weight: 300;
+	 border: 1px solid #aeabab;
+	 padding: 5px;
+	 background: transparent;
+	 border-radius: 5px;
+	 display: inline-block;
+	 margin-right: 15px;
+}
+ #listings .sortby-area .sort-icon {
+	 display: inline-block;
+}
+ #listings .sortby-area .sort-icon:hover {
+	 cursor: pointer;
+}
+ #listings .sortby-area .sort-icon .fas {
+	 font-size: 1.1rem;
+	 margin-right: 15px;
+}
+ #listings .listings-results {
+	 margin-bottom: 60px;
+}
+ #listings .listings-results .listing-info {
+	 -webkit-box-shadow: 0px 12px 33px -21px rgba(0, 0, 0, 0.75);
+	 -moz-box-shadow: 0px 12px 33px -21px rgba(0, 0, 0, 0.75);
+	 box-shadow: 0px 12px 33px -21px rgba(0, 0, 0, 0.75);
+	 border-radius: 5px;
+}
+ #listings .listings-results .listing-image {
+	 color: white;
+	 padding: 15px;
+	 position: relative;
+	 background: url("https://www.thehousedesigners.com/images/plans/MSD/uploads/X-17-MOD-ml.jpg") no-repeat center center;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 min-height: 220px;
+	 -webkit-border-top-left-radius: 5px;
+	 -webkit-border-top-right-radius: 5px;
+	 -moz-border-radius-topleft: 5px;
+	 -moz-border-radius-topright: 5px;
+	 border-top-left-radius: 5px;
+	 border-top-right-radius: 5px;
+}
+ #listings .listings-results .listing-image:hover .details {
+	 opacity: 1;
+}
+ #listings .listings-results .listing-image:hover .address {
+	 opacity: 0;
+}
+ #listings .listings-results .listing-image .address {
+	 font-size: 1.3rem;
+	 text-transform: capitalize;
+	 position: absolute;
+	 bottom: 20px;
+	 opacity: 1;
+	 transition: 0.3s ease-in-out;
+	 text-shadow: 0 1px 4px rgba(91, 91, 91, 1);
+}
+ #listings .listings-results .listing-image .details {
+	 transition: all 0.3s ease-in-out;
+	 opacity: 0;
+	 display: inline-block;
+	 padding: 20px;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 bottom: 0;
+	 right: 0;
+	 -webkit-border-top-left-radius: 5px;
+	 -webkit-border-top-right-radius: 5px;
+	 -moz-border-radius-topleft: 5px;
+	 -moz-border-radius-topright: 5px;
+	 border-top-left-radius: 5px;
+	 border-top-right-radius: 5px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6500d1+0,ba5ced+58,b442ed+100 */
+	 background: rgba(101, 0, 209, .8);
+	/* Old browsers */
+	 background: -moz-linear-gradient(-45deg, rgba(101, 0, 209, .8) 0%, rgba(186, 92, 237, .8) 58%, rgba(180, 66, 237, .8) 100%);
+	/* FF3.6-15 */
+	 background: -webkit-linear-gradient(-45deg, rgba(101, 0, 209, .8) 0%, rgba(186, 92, 237, .8) 58%, rgba(180, 66, 237, .8) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	 background: linear-gradient(135deg, rgba(101, 0, 209, .8) 0%, rgba(186, 92, 237, .8) 58%, rgba(180, 66, 237, .8) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6500d1', endColorstr='#b442ed',GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+ #listings .listings-results .listing-image .details .user-image {
+	 border-radius: 50%;
+	 height: 35px;
+	 width: 35px;
+	 border: 1px solid white;
+	 display: inline-block;
+	 background: url("https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg") no-repeat center center;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+ #listings .listings-results .listing-image .details .user-details {
+	 display: inline-block;
+	 vertical-align: top;
+}
+ #listings .listings-results .listing-image .details .user-details .user-name {
+	 display: block;
+	 margin-top: 3px;
+	 color: rgba(266, 255, 255, 1);
+	 font-weight: 300;
+	 margin-bottom: 5px;
+}
+ #listings .listings-results .listing-image .details .user-details .post-date {
+	 display: block;
+	 color: rgba(266, 255, 255, .7);
+	 font-weight: 300;
+}
+ #listings .listings-results .listing-image .details .listing-details {
+	 margin-top: 20px;
+	 margin-bottom: 10px;
+}
+ #listings .listings-results .listing-image .details .listing-details .floorspace .far {
+	 margin-right: 10px;
+	 margin-bottom: 10px;
+}
+ #listings .listings-results .listing-image .details .listing-details .bedrooms .fas {
+	 margin-right: 10px;
+}
+ #listings .listings-results .bottom-info {
+	 padding: 20px 15px;
+}
+ #listings .listings-results .bottom-info .price {
+	 font-size: 1rem;
+	 display: block;
+	 margin-bottom: 10px;
+	 color: #828d9d;
+}
+ #listings .listings-results .bottom-info .location {
+	 font-size: 1.2rem;
+	 display: block;
+	 color: #dae2ef;
+}
+ .view-btn {
+	 background: black;
+	 color: white;
+	 padding: 8px;
+	 font-size: 0.9rem;
+	 border-radius: 5px;
+	 text-align: center;
+	 max-width: 150px;
+	 font-weight: 300;
+	 position: relative;
+	 right: 30px;
+	 transition: background 0.3s ease-in-out;
+}
+ .view-btn:hover {
+	 background: #ff7789;
+	 cursor: pointer;
+}
+ #pagination {
+	 width: 100%;
+	 display: block;
+	 text-align: center;
+}
+ #pagination .pages {
+	 display: inline-block;
+	 background: white;
+	 -webkit-box-shadow: 0px 12px 33px -21px rgba(0, 0, 0, 0.75);
+	 -moz-box-shadow: 0px 12px 33px -21px rgba(0, 0, 0, 0.75);
+	 box-shadow: 0px 12px 33px -21px rgba(0, 0, 0, 0.75);
+}
+ #pagination .pages li {
+	 display: inline-block;
+	 padding: 20px 30px;
+	 transition: 0.3s ease-in-out;
+}
+ #pagination .pages li.active, #pagination .pages li:hover {
+	 color: white;
+	 font-weight: 700;
+	 background: #ff7789;
+	 cursor: pointer;
+}
