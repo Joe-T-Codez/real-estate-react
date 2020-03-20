@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/real-estate-react/static/css/main.0ff4181f.chunk.css",
-    "main.js": "/real-estate-react/static/js/main.b32dcab9.chunk.js",
-    "main.js.map": "/real-estate-react/static/js/main.b32dcab9.chunk.js.map",
+    "main.css": "/real-estate-react/static/css/main.a3d23eb1.chunk.css",
+    "main.js": "/real-estate-react/static/js/main.67f15b26.chunk.js",
+    "main.js.map": "/real-estate-react/static/js/main.67f15b26.chunk.js.map",
     "runtime-main.js": "/real-estate-react/static/js/runtime-main.a3082b54.js",
     "runtime-main.js.map": "/real-estate-react/static/js/runtime-main.a3082b54.js.map",
     "static/js/2.3fba1c16.chunk.js": "/real-estate-react/static/js/2.3fba1c16.chunk.js",
     "static/js/2.3fba1c16.chunk.js.map": "/real-estate-react/static/js/2.3fba1c16.chunk.js.map",
     "index.html": "/real-estate-react/index.html",
-    "precache-manifest.5aea781ae9a73e6e891f8f89e4411945.js": "/real-estate-react/precache-manifest.5aea781ae9a73e6e891f8f89e4411945.js",
+    "precache-manifest.640f3fcccae3dc969f34da1aca2dbcda.js": "/real-estate-react/precache-manifest.640f3fcccae3dc969f34da1aca2dbcda.js",
     "service-worker.js": "/real-estate-react/service-worker.js",
-    "static/css/main.0ff4181f.chunk.css.map": "/real-estate-react/static/css/main.0ff4181f.chunk.css.map",
+    "static/css/main.a3d23eb1.chunk.css.map": "/real-estate-react/static/css/main.a3d23eb1.chunk.css.map",
     "static/js/2.3fba1c16.chunk.js.LICENSE.txt": "/real-estate-react/static/js/2.3fba1c16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a3082b54.js",
     "static/js/2.3fba1c16.chunk.js",
-    "static/css/main.0ff4181f.chunk.css",
-    "static/js/main.b32dcab9.chunk.js"
+    "static/css/main.a3d23eb1.chunk.css",
+    "static/js/main.67f15b26.chunk.js"
   ]
 }
