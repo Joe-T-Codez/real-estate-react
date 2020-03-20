@@ -51,4 +51,6 @@ body {
  .home a:hover {
 	 color: #43d4d6;
 }
+@import "listings.css";
+@import "grid.css";
 @import "content-area.css";
