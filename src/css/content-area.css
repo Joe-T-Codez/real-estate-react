@@ -8,6 +8,7 @@
 	 width: 30%;
 	 max-width: 300px;
 	 display: inline-block;
+	 float:left;
 }
  #filter .inside {
 	 padding: 20px 10px 10px 50px;
@@ -53,7 +54,7 @@
 }
  #listings {
 	 width: 70%;
-
+		float:left;
 	 display: inline-block;
 	 padding: 30px;
 	 background: #fffeff;

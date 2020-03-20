@@ -4,7 +4,7 @@ import Header from './Header.js'
 import Filter from './Filter.js'
 import Listings from './Listings.js'
 import listingsData from './data/listingsData.js'
-import './App.css';
+import './css/App.css';
 
 export default class App extends Component {
   constructor () {
@@ -47,11 +47,11 @@ var listingsData= this.state.listingsData.sort((a,b)=>{
   change(event){
     var name=event.target.name
     var value=(event.target.type==='checkbox') ? event.target.checked: event.target.value
-console.log(listingsData.city)
+
     this.setState({
       [name]:value
     }, ()=>{
-      console.log(this.state)
+
       this.filteredData()
     })
   }
