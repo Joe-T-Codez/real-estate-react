@@ -112,6 +112,10 @@ var {listingsData}=this.props
       <i className="fas fa-th-list" onClick={this.props.changeView.bind(null,"box")}></i>
       <i className="fas fa-th" onClick={this.props.changeView.bind(null,"long")}></i>
       </div>
+      <div className="filter-options">
+      <i className="fas fa-filter"></i>
+      <h1>Filter</h1>
+      </div>
       </div>
     </section>
 
