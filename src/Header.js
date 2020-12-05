@@ -15,6 +15,7 @@ export default class Header extends Component {
 
       <nav className="menu-links">
       <a href="https://www.youtube.com/">Create Ads</a>
+      <a href="https://www.youtube.com/">Bop</a>
       <a href="https://www.youtube.com/">About Us</a>
       <a href="https://www.youtube.com/">Log In</a>
       <a href="https://www.youtube.com/" className="register-btn">Register </a>
